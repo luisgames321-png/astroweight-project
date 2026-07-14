@@ -1,0 +1,81 @@
+button {
+    background-color: #2233ce;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #3c2c97;
+}
+
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 20px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: Michroma;
+}
+
+html {
+  background-color: #15003d;
+}
+body {
+  width: 600px;
+  margin: 20px auto; 
+  background-color: #000000c2;
+  padding: 0 20px 20px 20px;
+  border-radius: 15px; 
+  box-shadow: 0 0 25px rgba(34, 51, 206, 0.4); 
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #4da8da;
+  text-shadow: 0px 0px 10px rgba(77, 178, 218, 0.64);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  height: auto;
+}
+
+p {
+  color: #4da8da; /* Matches your header color for consistency */
+  text-align: center;
+  font-size: 1.2rem; 
+  text-shadow: 0 0 8px rgba(77, 168, 218, 0.5); /* Adds a subtle sci-fi glow */
+  margin-top: 25px; /* Gives it a bit of breathing room from the buttons */
+}
+
+.controls-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  background-color: #15003d; 
+  color: white;
+  border: 1px solid #2233ce; 
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "Michroma", sans-serif; 
+}
+
+input:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 10px #2233ce; 
+}
